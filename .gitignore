@@ -1,0 +1,4 @@
+/target/
+*.patch
+status.txt
+diff-stat.txt

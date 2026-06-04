@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/engine"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "MPL-2.0"
+repository = "https://github.com/CoreShiftD/CoreShift-Engine"
+rust-version = "1.85"
+
+[workspace.dependencies]
+coreshift-core = { git = "https://github.com/CoreShiftD/CoreShift-Core.git", branch = "main", version = "1.0.0" }
